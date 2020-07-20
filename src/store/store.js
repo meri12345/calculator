@@ -20,7 +20,7 @@ export const store= new Vuex.Store({
                 state.mathExpression=String(num)
             }
             else{
-             state.mathExpression+=num;
+             state.mathExpression+=String(num);
             }
             
         },
